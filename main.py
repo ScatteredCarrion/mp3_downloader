@@ -3,7 +3,6 @@ from youtube_links import songs_youtube_id
 from downloader import download
 from spotipy import Spotify
 from spotipy.oauth2 import SpotifyOAuth
-from os import system
 
 
 sp = Spotify(auth_manager=SpotifyOAuth())
@@ -45,5 +44,3 @@ if __name__ == '__main__':
         offset = total - int(offset_inpt)
     f = real_limit_remover(song_number, function, liste, limit=limit, offset=offset)
     download(songs_youtube_id(f[0], f[1]))
-    system('move C:\\Users\\Hardal\\PycharmProjects\\spotify_to_mp3\\*.mp3 C:\\Users\\Hardal\\PycharmProjects\\spotify_to_mp3\\Musics')
-    # songs_youtube_id(f[0], f[1])
