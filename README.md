@@ -20,3 +20,5 @@ After accept the ToS, you need to create an app, ![CreateApp](Images/CreateApp.p
 After you create an app you can basicly find redirect uri by clicking the 'EDIT SETTINGS' button and add your redirect uri, ![RedirectURI](Images/RedirectURI.png)
 
 And finally you can see your client id and if you click the 'SHOW CLIENT SECRET' button you will see your client secret, ![ShowID&Secret](Images/ClientID&Secret.png)
+
+After you get all your Client ID, Client Secret et Redirect Uri you can easily set it like ![SetVariables](Images/SetVariables)
