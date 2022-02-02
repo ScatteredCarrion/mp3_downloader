@@ -13,8 +13,8 @@ export SPOTIPY_REDIRECT_URI='your-app-redirect-url'
 
 You can find your spotify client id and secret in spotify developer site: https://developer.spotify.com/dashboard/
 
-After accept the ToS, you need to create an app, ![CreateApp](https://support.heateor.com/wp-content/uploads/2020/10/spotify-client-id-spotify-developer-dashboard.png)
+After accept the ToS, you need to create an app, ![CreateApp](Images/CreateApp.png)
 
-After you create an app you can basicly find redirect uri  by clicking the 'EDIT SETTINGS' button, ![EditSettings](https://support.heateor.com/wp-content/uploads/2020/10/spotify-client-id-spotify-app-settings.png)
+After you create an app you can basicly find redirect uri  by clicking the 'EDIT SETTINGS' button, ![RedirectURI](Images/RedirectURI.png)
 
-And finally you can see your client id and if you click the 'SHOW CLIENT SECRET' button you will see your client secret, ![ShowID&Secret](https://support.heateor.com/wp-content/uploads/2020/10/spotify-client-id.png)
+And finally you can see your client id and if you click the 'SHOW CLIENT SECRET' button you will see your client secret, ![ShowID&Secret](Images/ClientID&Secret.png)
