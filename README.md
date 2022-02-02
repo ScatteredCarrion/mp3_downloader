@@ -5,16 +5,16 @@ This is cli tool, written in python for download songs in your spotify playlist 
 Usage:
 ----------------------------
 First you need to set environment variables like so (use SET instead of export on Windows):
----------------------------------------------------------------
+
 export SPOTIPY_CLIENT_ID='your-spotify-client-id'
 export SPOTIPY_CLIENT_SECRET='your-spotify-client-secret'
 export SPOTIPY_REDIRECT_URI='your-app-redirect-url'
----------------------------------------------------------------
+
 
 You can find your spotify client id and secret in spotify developer site: https://developer.spotify.com/dashboard/
 
 After accept the ToS, you need to create an app, ![CreateApp](Images/CreateApp.png)
 
-After you create an app you can basicly find redirect uri  by clicking the 'EDIT SETTINGS' button, ![RedirectURI](Images/RedirectURI.png)
+After you create an app you can basicly find redirect uri  by clicking the 'EDIT SETTINGS' button and add your redirect uri, ![RedirectURI](Images/RedirectURI.png)
 
 And finally you can see your client id and if you click the 'SHOW CLIENT SECRET' button you will see your client secret, ![ShowID&Secret](Images/ClientID&Secret.png)
