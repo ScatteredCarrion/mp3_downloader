@@ -5,8 +5,8 @@ This is cli tool, written in python for download songs in your spotify playlist 
 
 Usage:
 ----------------------------
-There are basicly two different methods,
-First Method:
+There are basicly two different methods,  
+First Method:  
 First you need to set environment variables like so (use SET instead of export on Windows):
 
 
@@ -25,5 +25,5 @@ And finally you can see your client id and if you click the 'SHOW CLIENT SECRET'
 
 After you get all your Client ID, Client Secret et Redirect Uri you can easily set it like ![SetVariables](Images/SetVariables.png)
 
-Second Method:
+Second Method:  
 You can directly edit the cred.py file for your secret, redirect uri and client id; that you can find how to find your id and secret in previous method.
